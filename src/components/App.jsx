@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
-// import { ContactItem } from './ContactItem/ContactItem';
+
 
 export class App extends Component {
   state = {
