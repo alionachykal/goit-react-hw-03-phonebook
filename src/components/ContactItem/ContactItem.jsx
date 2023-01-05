@@ -6,7 +6,7 @@ export const ContactItem = ({ id, name, number, handleDelete }) => {
     return (
     
         <ContactItem key={id}>
-            {/* {name}: {number} */}
+            {name}: {number}
             <button
                 type="button"
                 className={css.contactListItemBtn}
